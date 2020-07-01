@@ -1,0 +1,109 @@
+
+
+@media screen and (max-width: 425px) {
+    .quotesDisplay {
+        max-width: 80%;
+        height: 300px;
+    }
+    .quotes_text {
+        width: 85%;
+        font-size: 90%;
+    }
+
+    .roll_btn { padding: 7px; }
+    .roll_btn .btn { font-size: 70%;}
+    .btn:hover{
+         border: 2px solid yellow;
+         font-weight: bold;
+    }
+            
+    .time_title {
+            position: absolute;
+            top: 10%;
+            right: 7%;
+            font-size: 70%;
+    }
+
+    .quote_name { font-size: 110%;}
+          
+    .quote_autor { font-size: 80%; }
+
+}  
+
+
+@media screen and (max-width: 375px) {
+    .quotesDisplay {
+        max-width: 90%;
+        height: 300px;
+    }
+    .roll_btn { padding: 7px; }
+    
+    .roll_btn .btn {
+           font-size: 70%;
+           padding: 5px;
+    }
+    .time_title {
+        position: absolute;
+        top: 11%;
+        right: 7%;
+        font-size: 70%;
+    }
+
+    .quote_name { font-size: 95%; }
+    
+}
+
+
+
+@media screen and (max-width: 320px) {
+        
+    .generator {
+        padding: 15px;
+        height: 100vh;
+    }
+    .quotesDisplay {
+        max-width: 95%;
+        height: 300px;
+    }
+    .quotes_text {
+        width: 80%;
+        font-size: 80%;
+    }
+    
+    .quote_name { font-size: 85%; }
+       
+    .time_title {
+        position: absolute;
+        top: 12%;
+        right: 6%;
+        font-size: 65%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
