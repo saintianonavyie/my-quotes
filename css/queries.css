@@ -68,6 +68,8 @@
     .quotes_text {
         width: 80%;
         font-size: 80%;
+        color: #bbff00;
+        text-shadow: 2px 2px 3px rgb(255, 0, 0);
     }
     
     .quote_name { font-size: 85%; }
