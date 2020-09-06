@@ -67,15 +67,17 @@ html {
     width: 100%;
     height: 100%;
     cursor: pointer;
+    margin: 0;
 }
 
 .quotes_text {
     width: 80%;
     height: auto;
-    top: 50%;
+    top: 45%;
     left: 50%;
     color: red;
-    font-size: 150%;
+    font-size: 90%;
+    margin: 0;
     cursor: pointer;
     position: absolute;
     transform: translate(-50%, -50%);
@@ -91,10 +93,18 @@ html {
     100% { opacity: 1.0; font-size: 100%; }
 }
 
-.quote_autor {
-    right: 10%;
-    bottom: 3%;
+.author {
+    margin: 0 auto;
+    text-align: center;
+    bottom: 15px;
+    font-size: 70%;
     position: absolute;
+}
+
+.coder {
+   text-align: center;
+    bottom: 3%;
+    position: relative;
 }
 
 span {

@@ -36,6 +36,11 @@
         max-width: 90%;
         height: 300px;
     }
+    
+    .author{
+        font-size: 70%;
+        margin-top: 15px;
+    }
     .roll_btn { padding: 7px; }
     
     .roll_btn .btn {
@@ -56,9 +61,10 @@
 
 
 @media screen and (max-width: 320px) {
+    
         
     .generator {
-        padding: 15px;
+        padding: 0 15px;
         height: 100vh;
     }
     .quotesDisplay {
@@ -71,12 +77,16 @@
         color: #bbff00;
         text-shadow: 2px 2px 3px rgb(255, 0, 0);
     }
+    .author{
+        font-size: 70%;
+        margin-top: 15px;
+    }
     
     .quote_name { font-size: 85%; }
        
     .time_title {
         position: absolute;
-        top: 12%;
+        top: 15%;
         right: 6%;
         font-size: 65%;
     }

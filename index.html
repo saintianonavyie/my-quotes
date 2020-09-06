@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
     <title>Quotes-Generator</title>
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -15,7 +16,7 @@
     
 
 
-<div class="container-fluid generator clearfix">
+<div class="container-fluid generator clearfix" id="quote-box">
 <div class="time_title">show date</div>
 <section class="quote_name">inspirational quotes generator</section>
 
@@ -23,21 +24,20 @@
 
         <img src="img/images-1.jpeg" alt="quote_background image" class="backgroundImage" id="backgroundImage">
 
-        <div class="quotes_text">
-        <!--quotes will be here and its here-->
-        <div class="auth">
-            <!--name of author will appear here-->
+        <div >
+           <p class="quotes_text" id="text"> He who asks a question is a fool for five minutes; he who does not ask a question remains a fool forever.</p>
         </div>
+        <div>
+           <cite class="author" id="author">~  Chinese Proverb</cite> 
         </div>
-        <div class="quote_autor">Built By <span> ♥☺☻ </span> saint</div>
+       
     </div>
-
+ <div class="coder">Built By <span> ♥☺☻ </span> saint</div>
     <div class="roll_btn">
-        <div class="btn" id="generate">Generate quotes</div>
-        <a href="..." class="btn" id="tweet"><i class="fab fa-twitter"></i> tweet</a>
+        <div class="btn" id="new-quote" onclick="generate()">Generate quotes</div>
+        <a href="twitter.com/intent/tweet" class="btn" id="tweet-quote" target="_blank" onclick="tweetQuotes()"><i class="fab fa-twitter"></i> tweet</a>
     </div>
 </div>
-
 
 
 
